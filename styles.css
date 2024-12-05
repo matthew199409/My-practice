@@ -1,0 +1,19 @@
+body {
+  background-color: green;
+  text-align: center;
+  color: white;
+}
+button {
+  font-family: serif;
+  font-size: larger;
+  letter-spacing: 2ch;
+  width: 500px;
+  margin-left: 120px;
+}
+.flex {
+  display: flex;
+  flex-flow: column;
+}
+.Hi {
+  background-color: red;
+}
