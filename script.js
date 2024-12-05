@@ -1,4 +1,5 @@
 alert("Hi jasmine");
 function butcol() {
-  button.style.background == blue;
+  onclick;
+  button.style.background = blue;
 }
