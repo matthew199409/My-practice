@@ -1,5 +1,5 @@
-alert("Hi jasmine");
-function butcol() {
-  onclick;
-  button.style.background = blue;
-}
+const btn = document.getElementsByClassName(".btn");
+
+btn.addEventListener("click", () => {
+  btn.style.backgroundColor = "blue";
+});
