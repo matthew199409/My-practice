@@ -1,5 +1,4 @@
-const btn = document.getElementsByClassName(".btn");
-
-btn.addEventListener("click", () => {
-  btn.style.backgroundColor = "blue";
-});
+const btn = btn;
+function chgcolor(btn) {
+  addEventListener(btn);
+}

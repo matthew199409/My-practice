@@ -1,5 +1,5 @@
 body {
-  background-color: green;
+  background: linear-gradient(green, blue, red);
   text-align: center;
   color: white;
   letter-spacing: 2ch;
