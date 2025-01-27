@@ -3,7 +3,6 @@ let helloButton = document.getElementsByClassName("button")[0];
 console.log(helloButton);
 
 helloButton.addEventListener("click", () => {
-  // helloButton.style.backgroundColor = "blue";
   if (helloButton.style.backgroundColor === "green") {
     helloButton.style.backgroundColor = "red";
   } else {
@@ -29,4 +28,5 @@ function myFunction2() {
 
 function btnFunction() {
   document.getElementsByClassName("heading3")[0].innerHTML = "Duhhh";
+  document.getElementsByClassName("heading3")[1].innerHTML = "Duhhh...";
 }
