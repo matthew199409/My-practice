@@ -17,10 +17,10 @@ function myFunction() {
 
 function myFunction2() {
   document.getElementById("demo2").innerHTML = "There it goes";
-  if (demo2.style.backgroundColor === "green") {
-    demo2.style.backgroundColor = "purple";
+  if (demo2.style.backgroundColor === "red") {
+    demo2.style.backgroundColor = "yellow";
   } else {
-    demo2.style.backgroundColor = "green";
+    demo2.style.backgroundColor = "red";
   }
 
   document.getElementsByClassName("button")[0].innerHTML = "your gay";

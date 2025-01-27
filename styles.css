@@ -65,9 +65,15 @@ a:hover {
 #demo2 {
   font-size: 35px;
   border-radius: 25px;
-  overflow: hidden;
   padding: 20px;
+  color: turquoise;
 }
 img {
   margin-bottom: 100px;
+}
+h2 {
+  color: yellow;
+}
+p {
+  color: rgb(255, 5, 122);
 }
