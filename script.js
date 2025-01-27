@@ -9,6 +9,7 @@ helloButton.addEventListener("click", () => {
   } else {
     helloButton.style.backgroundColor = "green";
   }
+  document.getElementsByClassName("button")[0].innerHTML = "I'm gay";
 });
 
 function myFunction() {
@@ -17,6 +18,8 @@ function myFunction() {
 
 function myFunction2() {
   document.getElementById("demo2").innerHTML = "There it goes";
+
+  document.getElementsByClassName("button")[0].innerHTML = "your gay";
 }
 
 function btnFunction() {}
