@@ -9,19 +9,23 @@ helloButton.addEventListener("click", () => {
   } else {
     helloButton.style.backgroundColor = "green";
   }
-  function heading3() {}
-  document.getElementsByClassName("heading3");
-  document.addEventListener("click"),
-    () => {
-      if (heading3.style.backgroundColor === "red") {
-        heading3.style.backgroundColor = "green";
-      }
-    };
+
+  function myH3() {
+    document.getElementsByClassName("heading3");
+    document.addEventListener("click"),
+      () => {
+        if (heading3.style.backgroundColor === "red") {
+          heading3.style.backgroundColor = "green";
+        }
+      };
+  }
 });
 function myFunction() {
   document.getElementById("demo").innerHTML = "It changed!!!";
 }
+
 function myFunction2() {
   document.getElementById("demo2").innerHTML = "There it goes";
 }
+
 function btnFunction() {}
