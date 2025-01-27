@@ -18,6 +18,11 @@ function myFunction() {
 
 function myFunction2() {
   document.getElementById("demo2").innerHTML = "There it goes";
+  if (demo2.style.backgroundColor === "green") {
+    demo2.style.backgroundColor = "purple";
+  } else {
+    demo2.style.backgroundColor = "green";
+  }
 
   document.getElementsByClassName("button")[0].innerHTML = "your gay";
 }
