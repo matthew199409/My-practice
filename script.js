@@ -22,4 +22,6 @@ function myFunction2() {
   document.getElementsByClassName("button")[0].innerHTML = "your gay";
 }
 
-function btnFunction() {}
+function btnFunction() {
+  document.getElementsByClassName("heading3")[0].innerHTML = "Duhhh";
+}
