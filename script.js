@@ -36,7 +36,7 @@ function myFunction2() {
 }
 
 function btnFunction() {
-  document.getElementsByClassName("heading3")[1].innerHTML = "Duhhh...";
+  document.getElementsByClassName("heading3")[0].innerHTML = "Duhhh...";
 }
 
 function getResponse() {

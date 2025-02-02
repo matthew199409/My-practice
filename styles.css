@@ -34,7 +34,6 @@ button {
   display: flex;
   flex-flow: row wrap;
   width: 100vh;
-  align-content: center;
 }
 .lorem {
   background: linear-gradient(purple, pink, black);
@@ -45,8 +44,15 @@ button {
   margin-bottom: 10px;
   border-radius: 10px;
 }
-
-h2,
+h2 {
+  color: rgb(17, 0, 255);
+  font-size: 35px;
+  font-family: sans-serif;
+  background-color: yellow;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 0 40px green;
+}
 h2:hover {
   color: rgb(255, 10, 10);
   cursor: crosshair;
@@ -102,6 +108,7 @@ p {
 }
 .input {
   margin: 20px;
+  padding: 20px;
 }
 .Fb {
   color: crimson;
