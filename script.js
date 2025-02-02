@@ -1,4 +1,4 @@
-let helloButton = document.getElementsByClassName("button")[0];
+let helloButton = document.getElementsByClassName("button")[1];
 
 console.log(helloButton);
 
@@ -38,10 +38,10 @@ function myFunction2() {
 function btnFunction() {
   document.getElementsByClassName("heading3")[1].innerHTML = "Duhhh...";
 }
+
 function getResponse() {
   const questionInput = document.getElementById("questionInput").value;
   const responseElement = document.getElementById("response");
-
   // Simple response logic
   let response;
   if (questionInput.toLowerCase().includes("hello")) {

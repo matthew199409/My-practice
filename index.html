@@ -8,6 +8,20 @@
     <title>Matthews First Webpage</title>
   </head>
   <body>
+    <div>
+      <input
+        class="input"
+        type="text"
+        id="questionInput"
+        onclick="getResponse()"
+        placeholder="Please say Hi!"
+      />
+
+      <button class="button" onclick="getResponse()">Submit</button>
+
+      <p id="response"></p>
+    </div>
+
     <div class="flex">
       <div class="lorem">
         <button class="lorem" onclick="myFunction2()">
@@ -19,8 +33,6 @@
           </p>
         </button>
       </div>
-
-      <input class="input" type="text" onclick="" />
 
       <button class="button">Hello Jasmine</button>
 
@@ -79,12 +91,8 @@
 
     <!-- New input and response section -->
     <div>
-      <input
-        class="input"
-        type="text"
-        id="questionInput"
-        placeholder="Ask a question"
-      />
+      <input type="text" id="questionInput" placeholder="Ask a question" />
+
       <button class="button" onclick="getResponse()">Submit</button>
       <p id="response"></p>
     </div>

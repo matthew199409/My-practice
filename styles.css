@@ -32,7 +32,7 @@ button {
 
 .flex {
   display: flex;
-  flex-flow: column;
+  flex-flow: row wrap;
   width: 100vh;
   align-content: center;
 }
@@ -46,8 +46,9 @@ button {
   border-radius: 10px;
 }
 
+h2,
 h2:hover {
-  color: blue;
+  color: rgb(255, 10, 10);
   cursor: crosshair;
   font-size: 35px;
 }
@@ -72,10 +73,16 @@ a:hover {
   color: turquoise;
 }
 img {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
-h2 {
-  color: yellow;
+h1 {
+  color: red;
+  font-size: 50px;
+  font-family: sans-serif;
+  background-color: yellow;
+  border-radius: 25px;
+  padding: 20px;
+  box-shadow: 0 0 40px green;
 }
 p {
   color: rgb(255, 5, 122);
